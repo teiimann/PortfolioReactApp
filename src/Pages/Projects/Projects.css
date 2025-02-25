@@ -675,16 +675,17 @@ body {
 }
 
 /* Устанавливаем фоны для каждой карточки */
-.rectangle-4-503 { background-image: url("../../Images/optimus.jpeg"); }
-.rectangle-4-5016 { background-image: url("../../Images/optimus.jpeg"); }
-.rectangle-4-5022 { background-image: url("../../Images/optimus.jpeg"); }
-.rectangle-4-5010 { background-image: url("../../Images/optimus.jpeg"); }
-.rectangle-4-5028 { background-image: url("../../Images/optimus.jpeg"); }
-.rectangle-4-5031 { background-image: url("../../Images/optimus.jpeg"); }
-.rectangle-4-5019 { background-image: url("../../Images/optimus.jpeg"); }
-.rectangle-4-507 { background-image: url("../../Images/optimus.jpeg"); }
-.rectangle-4-5013 { background-image: url("../../Images/optimus.jpeg"); }
-.rectangle-4-5025 { background-image: url("../../Images/optimus.jpeg"); }
+.rectangle-4-5022 { background-image: url("./ProjImg/deepface.png"); }
+.rectangle-4-503 { background-image: url("./ProjImg/Aisa.png"); }
+.rectangle-4-5016 { background-image: url("./ProjImg/banks.png"); }
+.rectangle-4-5010 { background-image: url("./ProjImg/Expresso.png"); }
+.rectangle-4-5028 { background-image: url("./ProjImg/ITFEST.png"); }
+.rectangle-4-5013 { background-image: url("./ProjImg/weatherapp.png"); }
+.rectangle-4-507  { background-image: url("./ProjImg/twitter2.0.png"); }
+.rectangle-4-5019 { background-image: url("./ProjImg/Todo.png"); }
+.rectangle-4-5025 { background-image: url("./ProjImg/planets.png"); }
+.rectangle-4-5031 { background-image: url("./ProjImg/BlogApp.png"); }
+
 
 /* При наведении фон становится ярче */
 .oneframe-504:hover .rectangle-4-503,
