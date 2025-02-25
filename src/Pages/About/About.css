@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --custom-width: 100vw;
+  --design-width: 1920;
+  --ratio: calc(var(--custom-width) / var(--design-width));
+}
+
+/* Default classes */
+.pos-abs {
+  position: absolute;
+}
+.fill-parent {
+  width: 100%;
+  height: 100%;
+}
+.bg-contain {
+  background-size: contain;
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-auto {
+  background-size: auto;
+}
+.bg-crop {
+  background-size: 100% 100%;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+.pos-init {
+  top: 0px;
+  left: 0px;
+}
+.image-div {
+  background-color: transparent;
+  background-position: center;
+}
+/* Default classes end */
+
+body {
+  margin: 0px 0px;
+  padding: 0px;
+}
+.parent-div {
+  position: relative;
+  width: var(--custom-width);
+  height: calc(1080 * var(--ratio));
+  overflow: hidden;
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nodeBg-1515,
+.nodeBg-1629 {
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  opacity: 1;
+}
+.aboutpage-1515 {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+.navbaraboutpage-1516 {
+  width: 102.71%;
+  height: 32.59%;
+  top: -8.33%;
+  left: -6.15%;
+  z-index: 0;
+  transform: rotate(0deg);
+}
+.about-me-1517 {
+  width: 91.33%;
+  height: 88.07%;
+  top: 0%;
+  left: 0%;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.about-me-1517-0 {
+  font-size: calc(300 * var(--ratio));
+  letter-spacing: calc(-6.6000001430511475 * var(--ratio));
+  line-height: calc(450 * var(--ratio));
+
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+.teiimann-1518 {
+  width: 14.76%;
+  height: 16.76%;
+  top: 40.63%;
+  left: 85.24%;
+  z-index: 1;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+  box-sizing: border-box;
+  -webkit-text-stroke: 1px #000000ff;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.teiimann-1518-0 {
+  font-size: calc(50 * var(--ratio));
+  letter-spacing: calc(-1.100000023841858 * var(--ratio));
+  line-height: calc(75 * var(--ratio));
+
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #c8c8c8ff;
+}
+.contacts-1522 {
+  width: 8.37%;
+  height: 12.5%;
+  top: 59.09%;
+  left: 86.46%;
+  z-index: 4;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.contacts-1522-0,
+.projects-1520-0,
+.tools-1521-0 {
+  font-size: calc(40 * var(--ratio));
+  letter-spacing: calc(-0.8800000190734864 * var(--ratio));
+  line-height: calc(60 * var(--ratio));
+
+  font-family: "Jersey 25", cursive;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #c8c8c8ff;
+}
+.projects-1520 {
+  width: 8.16%;
+  height: 12.5%;
+  top: 73.3%;
+  left: 86.46%;
+  z-index: 2;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.tools-1521 {
+  width: 5.02%;
+  height: 12.5%;
+  top: 87.5%;
+  left: 86.31%;
+  z-index: 3;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.hi-im-a-student-1630 {
+  width: 52.55%;
+  height: 49.26%;
+  top: 35.65%;
+  left: 30.52%;
+  z-index: 1;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+.hi-im-a-student-1630-0,
+.hi-im-a-student-1630-2,
+.hi-im-a-student-1630-4,
+.hi-im-a-student-1630-6,
+.hi-im-a-student-1630-8,
+.hi-im-a-student-1630-10,
+.hi-im-a-student-1630-12,
+.hi-im-a-student-1630-14,
+.hi-im-a-student-1630-16,
+.hi-im-a-student-1630-18,
+.hi-im-a-student-1630-20,
+.imangali-tleuzh-1633-0,
+.lang-1634-0,
+.gpa-47-1635-0 {
+  font-size: calc(40 * var(--ratio));
+  letter-spacing: calc(-0.8800000190734864 * var(--ratio));
+  line-height: calc(60 * var(--ratio));
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+.hi-im-a-student-1630-1,
+.hi-im-a-student-1630-3,
+.hi-im-a-student-1630-5,
+.hi-im-a-student-1630-7,
+.hi-im-a-student-1630-9,
+.hi-im-a-student-1630-11,
+.hi-im-a-student-1630-13,
+.hi-im-a-student-1630-15,
+.hi-im-a-student-1630-17,
+.hi-im-a-student-1630-19 {
+  font-size: calc(40 * var(--ratio));
+  letter-spacing: calc(-0.8800000190734864 * var(--ratio));
+  line-height: calc(60 * var(--ratio));
+
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ff0000ff;
+}
+.card-1649 {
+  width: 18.91%;
+  height: 53.7%;
+  top: 36.76%;
+  left: 6.04%;
+  z-index: 2;
+  transform: rotate(0deg);
+}
+.myphoto-1629 {
+  width: 100%;
+  height: 73.08%;
+  top: 0%;
+  left: 0%;
+  z-index: 0;
+  transform: rotate(0deg);
+  overflow: hidden;
+  border-radius: 30px;
+  box-sizing: border-box;
+  border-left: 5px solid #ffffffff;
+  border-right: 5px solid #ffffffff;
+  border-top: 5px solid #ffffffff;
+  border-bottom: 5px solid #ffffffff;
+}
+.imangali-tleuzh-1633 {
+  width: 88.42%;
+  height: 6.88%;
+  top: 74.09%;
+  left: 5.93%;
+  z-index: 1;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+.lang-1634 {
+  width: 75.99%;
+  height: 6.88%;
+  top: 83.6%;
+  left: 5.93%;
+  z-index: 2;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+.gpa-47-1635 {
+  width: 75.99%;
+  height: 6.88%;
+  top: 93.12%;
+  left: 5.93%;
+  z-index: 3;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+
+.nav-links {
+  position: relative;
+  color: rgba(255, 255, 255, 0.721);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Подчеркивание снизу (изначально скрыто) */
+.nav-links::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: -5px;
+  left: 100%;
+  background-color: rgb(209, 0, 0);
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+/* При наведении текст становится золотым, а линия появляется справа налево */
+.nav-links:hover {
+  color: #f7f7f7;
+}
+
+.nav-links:hover::after {
+  width: 100%;
+  left: 0;
+}

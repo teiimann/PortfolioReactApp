@@ -1,0 +1,833 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --custom-width: 100vw;
+  --design-width: 1920;
+  --ratio: calc(var(--custom-width) / var(--design-width));
+}
+
+/* Default classes */
+.pos-abs {
+  position: absolute;
+}
+.fill-parent {
+  width: 100%;
+  height: 100%;
+}
+.bg-contain {
+  background-size: contain;
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-auto {
+  background-size: auto;
+}
+.bg-crop {
+  background-size: 100% 100%;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+.pos-init {
+  top: 0px;
+  left: 0px;
+}
+.image-div {
+  background-color: transparent;
+  background-position: center;
+}
+/* Default classes end */
+
+body {
+  margin: 0px 0px;
+  padding: 0px;
+}
+.parent-div {
+  position: relative;
+  width: var(--custom-width);
+  height: calc(1080 * var(--ratio));
+  overflow: hidden;
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.projectpage-182 {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+  transform: rotate(0deg);
+  overflow: hidden;
+  background: #000000ff;
+}
+.navbarprojpage-183 {
+  width: 95.88%;
+  height: 42.31%;
+  top: -9.35%;
+  left: -2.19%;
+  z-index: 0;
+  transform: rotate(0deg);
+}
+.projects-184 {
+  width: 89.03%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+
+.projects-184-0 {
+  font-size: calc(300 * var(--ratio));
+  letter-spacing: calc(-6.6000001430511475 * var(--ratio));
+  line-height: calc(450 * var(--ratio));
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+.teiimann-185 {
+  width: 15.53%;
+  height: 15.62%;
+  top: 31.07%;
+  left: 84.47%;
+  z-index: 1;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+  box-sizing: border-box;
+  -webkit-text-stroke: 1px #000000ff;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.teiimann-185-0 {
+  font-size: calc(50 * var(--ratio));
+  letter-spacing: calc(-1.100000023841858 * var(--ratio));
+  line-height: calc(75 * var(--ratio));
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #c8c8c8ff;
+}
+.contacts-188 {
+  width: 8.02%;
+  height: 9.37%;
+  top: 46.69%;
+  left: 85.61%;
+  z-index: 4;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.contacts-188-0,
+.about-186-0,
+.tools-187-0 {
+  font-size: calc(35 * var(--ratio));
+  letter-spacing: calc(-0.7700000166893005 * var(--ratio));
+  line-height: calc(52.5 * var(--ratio));
+
+  font-family: "Jersey 25", cursive;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #c8c8c8ff;
+}
+.about-186 {
+  width: 5.05%;
+  height: 9.41%;
+  top: 56.02%;
+  left: 85.83%;
+  z-index: 2;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.tools-187 {
+  width: 4.8%;
+  height: 9.37%;
+  top: 65.43%;
+  left: 85.83%;
+  z-index: 3;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.img-1837 {
+  width: 22.71%;
+  height: 83.33%;
+  top: 24.72%;
+  left: 38.65%;
+  z-index: 1;
+  transform: rotate(0deg);
+}
+.nodeBg-1811 {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: calc(607.4363997827897 * var(--ratio));
+  height: calc(242.6762179266653 * var(--ratio));
+  left: calc(-95.12727272727273 * var(--ratio));
+  top: calc(-37.63809425887724 * var(--ratio));
+  object-fit: cover;
+  opacity: 1;
+}
+.projimg-1811 {
+  width: 100%;
+  height: 9.89%;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+.nodeBg-1810 {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: calc(735.0000013184874 * var(--ratio));
+  height: calc(266.0000064119256 * var(--ratio));
+  left: calc(-185.9999956849503 * var(--ratio));
+  top: calc(-63.000002463117745 * var(--ratio));
+  object-fit: cover;
+  opacity: 1;
+}
+.projimg-1810 {
+  width: 83.72%;
+  height: 22.44%;
+  top: 77.56%;
+  left: 8.03%;
+  z-index: 0;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+.frames-5032 {
+  width: 87.55%;
+  height: 57.6%;
+  top: 33.15%;
+  left: 4.32%;
+  z-index: 2;
+  transform: rotate(0deg);
+}
+.oneframe-504 {
+  width: 16.06%;
+  height: 50.91%;
+  top: 2.86%;
+  left: 8.65%;
+  z-index: 1;
+  transform: rotate(-8.26deg);
+}
+.rectangle-3-502 {
+  width: 100%;
+  height: 100%;
+  top: -6.65%;
+  left: 7.91%;
+  z-index: 0;
+  transform: rotate(-8.26deg);
+  background: #e2e2e2ff;
+}
+.rectangle-4-503 {
+  width: 90.04%;
+  height: 75.24%;
+  top: -0.89%;
+  left: 11.95%;
+  z-index: 1;
+  transform: rotate(-8.26deg);
+  background: #4c4c4cff;
+}
+.project-name-527 {
+  width: 70.73%;
+  height: 11.15%;
+  top: 76.59%;
+  left: 28.98%;
+  z-index: 2;
+  transform: rotate(-7.69deg);
+  text-align: left;
+  line-height: 0px;
+}
+.project-name-527-0,
+.project-name-5213-0,
+.project-name-5212-0,
+.project-name-5214-0,
+.project-name-5210-0,
+.project-name-526-0,
+.project-name-528-0,
+.project-name-525-0,
+.project-name-524-0,
+.project-name-529-0 {
+  font-size: calc(26 * var(--ratio));
+
+  line-height: calc(26 * var(--ratio));
+
+  font-family: Paytone One;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #434343ff;
+}
+.oneframe-5014 {
+  width: 16.06%;
+  height: 50.91%;
+  top: 8.17%;
+  left: 47.47%;
+  z-index: 4;
+  transform: rotate(-0.34deg);
+}
+.rectangle-3-5015 {
+  width: 100%;
+  height: 100%;
+  top: -0.25%;
+  left: 0.34%;
+  z-index: 0;
+  transform: rotate(-0.34deg);
+  background: #e2e2e2ff;
+}
+.rectangle-4-5016 {
+  width: 90.04%;
+  height: 71.79%;
+  top: 5.46%;
+  left: 5.45%;
+  z-index: 1;
+  transform: rotate(-0.34deg);
+  background: #4c4c4cff;
+}
+.project-name-5213 {
+  width: 70.73%;
+  height: 11.15%;
+  top: 81.44%;
+  left: 14.18%;
+  z-index: 2;
+  transform: rotate(1.25deg);
+  text-align: left;
+  line-height: 0px;
+}
+.oneframe-5020 {
+  width: 16.07%;
+  height: 50.9%;
+  top: 8.3%;
+  left: 68.25%;
+  z-index: 7;
+  transform: rotate(-6.67deg);
+}
+.rectangle-3-5021 {
+  width: 100%;
+  height: 100%;
+  top: -5.28%;
+  left: 6.35%;
+  z-index: 0;
+  transform: rotate(-6.67deg);
+  background: #e2e2e2ff;
+}
+.rectangle-4-5022 {
+  width: 90.04%;
+  height: 71.8%;
+  top: 0.47%;
+  left: 10.39%;
+  z-index: 1;
+  transform: rotate(-6.67deg);
+  background: #4c4c4cff;
+}
+.project-name-5212 {
+  width: 70.73%;
+  height: 11.15%;
+  top: 76.9%;
+  left: 24.77%;
+  z-index: 2;
+  transform: rotate(-4.76deg);
+  text-align: left;
+  line-height: 0px;
+}
+.oneframe-508 {
+  width: 16.07%;
+  height: 50.89%;
+  top: 13.01%;
+  left: 27.17%;
+  z-index: 2;
+  transform: rotate(12.1deg);
+}
+.rectangle-3-509 {
+  width: 100%;
+  height: 100%;
+  top: 7.87%;
+  left: -13.19%;
+  z-index: 0;
+  transform: rotate(12.1deg);
+  background: #e2e2e2ff;
+}
+.rectangle-4-5010 {
+  width: 90.04%;
+  height: 75.24%;
+  top: 13.76%;
+  left: -6.42%;
+  z-index: 1;
+  transform: rotate(12.1deg);
+  background: #4c4c4cff;
+}
+.project-name-5214 {
+  width: 70.71%;
+  height: 11.15%;
+  top: 89.98%;
+  left: -13.5%;
+  z-index: 2;
+  transform: rotate(10.4deg);
+  text-align: left;
+  line-height: 0px;
+}
+.oneframe-5026 {
+  width: 16.07%;
+  height: 50.9%;
+  top: 27.45%;
+  left: 83.05%;
+  z-index: 9;
+  transform: rotate(-5.75deg);
+}
+.rectangle-3-5027 {
+  width: 100%;
+  height: 100%;
+  top: -4.52%;
+  left: 5.52%;
+  z-index: 0;
+  transform: rotate(-5.75deg);
+  background: #e2e2e2ff;
+}
+.rectangle-4-5028 {
+  width: 90.04%;
+  height: 75.24%;
+  top: 1.21%;
+  left: 9.92%;
+  z-index: 1;
+  transform: rotate(-5.75deg);
+  background: #4c4c4cff;
+}
+.project-name-5210 {
+  width: 70.73%;
+  height: 11.15%;
+  top: 80.48%;
+  left: 29.06%;
+  z-index: 2;
+  transform: rotate(-4.76deg);
+  text-align: left;
+  line-height: 0px;
+}
+.oneframe-5029 {
+  width: 16.07%;
+  height: 50.91%;
+  top: 35.34%;
+  left: 0.61%;
+  z-index: 5;
+  transform: rotate(-3.89deg);
+}
+.rectangle-3-5030 {
+  width: 100%;
+  height: 100%;
+  top: -3%;
+  left: 3.79%;
+  z-index: 0;
+  transform: rotate(-3.89deg);
+  background: #e2e2e2ff;
+}
+.rectangle-4-5031 {
+  width: 90.04%;
+  height: 71.79%;
+  top: 2.72%;
+  left: 8.3%;
+  z-index: 1;
+  transform: rotate(-3.89deg);
+  background: #4c4c4cff;
+}
+.project-name-526 {
+  width: 70.73%;
+  height: 11.15%;
+  top: 79.04%;
+  left: 23.47%;
+  z-index: 2;
+  transform: rotate(-4.19deg);
+  text-align: left;
+  line-height: 0px;
+}
+.oneframe-5017 {
+  width: 16.09%;
+  height: 50.84%;
+  top: 38.03%;
+  left: 57.08%;
+  z-index: 6;
+  transform: rotate(4.68deg);
+}
+.rectangle-3-5018 {
+  width: 100%;
+  height: 100%;
+  top: 3.35%;
+  left: -4.57%;
+  z-index: 0;
+  transform: rotate(4.68deg);
+  background: #e2e2e2ff;
+}
+.rectangle-4-5019 {
+  width: 90.04%;
+  height: 71.88%;
+  top: 9.1%;
+  left: 1.33%;
+  z-index: 1;
+  transform: rotate(4.68deg);
+  background: #4c4c4cff;
+}
+.project-name-528 {
+  width: 70.64%;
+  height: 11.16%;
+  top: 85.66%;
+  left: 5.28%;
+  z-index: 2;
+  transform: rotate(3.62deg);
+  text-align: left;
+  line-height: 0px;
+}
+.oneframe-505 {
+  width: 16.07%;
+  height: 50.9%;
+  top: 38.81%;
+  left: 19.61%;
+  z-index: 0;
+  transform: rotate(6.05deg);
+}
+.rectangle-3-506 {
+  width: 100%;
+  height: 100%;
+  top: 4.23%;
+  left: -6.35%;
+  z-index: 0;
+  transform: rotate(6.05deg);
+  background: #e2e2e2ff;
+}
+.rectangle-4-507 {
+  width: 90.04%;
+  height: 71.79%;
+  top: 10%;
+  left: -0.17%;
+  z-index: 1;
+  transform: rotate(6.05deg);
+  background: #4c4c4cff;
+}
+.project-name-525 {
+  width: 70.73%;
+  height: 11.15%;
+  top: 85.17%;
+  left: 4.9%;
+  z-index: 2;
+  transform: rotate(7.56deg);
+  text-align: left;
+  line-height: 0px;
+}
+.oneframe-5011 {
+  width: 16.08%;
+  height: 50.88%;
+  top: 40.43%;
+  left: 36.94%;
+  z-index: 3;
+  transform: rotate(-16.14deg);
+}
+.rectangle-3-5012 {
+  width: 100%;
+  height: 100%;
+  top: -13.77%;
+  left: 14.04%;
+  z-index: 0;
+  transform: rotate(-16.14deg);
+  background: #e2e2e2ff;
+}
+.rectangle-4-5013 {
+  width: 90.04%;
+  height: 75.24%;
+  top: -7.84%;
+  left: 17.06%;
+  z-index: 1;
+  transform: rotate(-16.14deg);
+  background: #4c4c4cff;
+}
+.project-name-524 {
+  width: 70.69%;
+  height: 11.15%;
+  top: 68.29%;
+  left: 44.03%;
+  z-index: 2;
+  transform: rotate(-15.53deg);
+  text-align: left;
+  line-height: 0px;
+}
+.oneframe-5023 {
+  width: 16.07%;
+  height: 50.9%;
+  top: 46.25%;
+  left: 75.13%;
+  z-index: 8;
+  transform: rotate(8.21deg);
+}
+.rectangle-3-5024 {
+  width: 100%;
+  height: 100%;
+  top: 5.59%;
+  left: -8.73%;
+  z-index: 0;
+  transform: rotate(8.21deg);
+  background: #e2e2e2ff;
+}
+.rectangle-4-5025 {
+  width: 90.04%;
+  height: 71.8%;
+  top: 11.41%;
+  left: -2.19%;
+  z-index: 1;
+  transform: rotate(8.21deg);
+  background: #4c4c4cff;
+}
+.project-name-529 {
+  width: 70.72%;
+  height: 11.15%;
+  top: 88.39%;
+  left: -0.18%;
+  z-index: 2;
+  transform: rotate(7.93deg);
+  text-align: left;
+  line-height: 0px;
+}
+
+.oneframe-5020,
+.oneframe-504,
+.oneframe-5014,
+.oneframe-5026,
+.oneframe-508,
+.oneframe-505,
+.oneframe-5011,
+.oneframe-5029,
+.oneframe-5017,
+.oneframe-5023 {
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+}
+
+.oneframe-5020:hover,
+.oneframe-504:hover,
+.oneframe-5014:hover,
+.oneframe-5026:hover,
+.oneframe-508:hover,
+.oneframe-505:hover,
+.oneframe-5011:hover,
+.oneframe-5029:hover,
+.oneframe-5017:hover,
+.oneframe-5023:hover {
+    transform: scale(1.2) rotate(0deg); /* Увеличиваем и убираем поворот */
+    z-index: 10; /* Поднимаем на передний план */
+}
+
+.project-name-527,
+.project-name-5213,
+.project-name-5212,
+.project-name-5214,
+.project-name-5210,
+.project-name-526,
+.project-name-528,
+.project-name-525,
+.project-name-524,
+.project-name-529 {
+    opacity: 0; /* Скрываем текст */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.oneframe-504:hover .project-name-527,
+.oneframe-5014:hover .project-name-5213,
+.oneframe-5020:hover .project-name-5212,
+.oneframe-508:hover .project-name-5214,
+.oneframe-5026:hover .project-name-5210,
+.oneframe-5029:hover .project-name-526,
+.oneframe-5017:hover .project-name-528,
+.oneframe-505:hover .project-name-525,
+.oneframe-5011:hover .project-name-524,
+.oneframe-5023:hover .project-name-529 {
+    opacity: 1; /* Показываем текст при наведении */
+}
+
+/* Начальные стили для затемненного фона */
+.rectangle-4-503,
+.rectangle-4-5016,
+.rectangle-4-5022,
+.rectangle-4-5010,
+.rectangle-4-5028,
+.rectangle-4-5031,
+.rectangle-4-5019,
+.rectangle-4-507,
+.rectangle-4-5013,
+.rectangle-4-5025 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(50%); /* Затемняем фон */
+    transition: filter 0.3s ease-in-out;
+}
+
+/* Устанавливаем фоны для каждой карточки */
+.rectangle-4-503 { background-image: url("../../Images/optimus.jpeg"); }
+.rectangle-4-5016 { background-image: url("../../Images/optimus.jpeg"); }
+.rectangle-4-5022 { background-image: url("../../Images/optimus.jpeg"); }
+.rectangle-4-5010 { background-image: url("../../Images/optimus.jpeg"); }
+.rectangle-4-5028 { background-image: url("../../Images/optimus.jpeg"); }
+.rectangle-4-5031 { background-image: url("../../Images/optimus.jpeg"); }
+.rectangle-4-5019 { background-image: url("../../Images/optimus.jpeg"); }
+.rectangle-4-507 { background-image: url("../../Images/optimus.jpeg"); }
+.rectangle-4-5013 { background-image: url("../../Images/optimus.jpeg"); }
+.rectangle-4-5025 { background-image: url("../../Images/optimus.jpeg"); }
+
+/* При наведении фон становится ярче */
+.oneframe-504:hover .rectangle-4-503,
+.oneframe-5014:hover .rectangle-4-5016,
+.oneframe-5020:hover .rectangle-4-5022,
+.oneframe-508:hover .rectangle-4-5010,
+.oneframe-5026:hover .rectangle-4-5028,
+.oneframe-5029:hover .rectangle-4-5031,
+.oneframe-5017:hover .rectangle-4-5019,
+.oneframe-505:hover .rectangle-4-507,
+.oneframe-5011:hover .rectangle-4-5013,
+.oneframe-5023:hover .rectangle-4-5025 {
+    filter: brightness(100%); /* Убираем затемнение при наведении */
+}
+
+/* Затемняем всю карточку */
+.oneframe-504,
+.oneframe-5014,
+.oneframe-5020,
+.oneframe-508,
+.oneframe-5026,
+.oneframe-5029,
+.oneframe-5017,
+.oneframe-505,
+.oneframe-5011,
+.oneframe-5023 {
+    filter: brightness(75%); /* Затемнение всей карточки */
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* При наведении осветляем карточку и увеличиваем */
+.oneframe-504:hover,
+.oneframe-5014:hover,
+.oneframe-5020:hover,
+.oneframe-508:hover,
+.oneframe-5026:hover,
+.oneframe-5029:hover,
+.oneframe-5017:hover,
+.oneframe-505:hover,
+.oneframe-5011:hover,
+.oneframe-5023:hover {
+    filter: brightness(100%); /* Убираем затемнение */
+    transform: scale(1.1); /* Немного увеличиваем */
+    z-index: 10; /* Выводим на передний план */
+}
+
+/* Затемненный фон для всех rectangle-4 */
+.rectangle-4-503,
+.rectangle-4-5016,
+.rectangle-4-5022,
+.rectangle-4-5010,
+.rectangle-4-5028,
+.rectangle-4-5031,
+.rectangle-4-5019,
+.rectangle-4-507,
+.rectangle-4-5013,
+.rectangle-4-5025 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(50%); /* Затемняем фон */
+    transition: filter 0.3s ease-in-out;
+    border: 3px solid #4c4c4cff;
+}
+
+/* Осветление фона при наведении */
+.oneframe-504:hover .rectangle-4-503,
+.oneframe-5014:hover .rectangle-4-5016,
+.oneframe-5020:hover .rectangle-4-5022,
+.oneframe-508:hover .rectangle-4-5010,
+.oneframe-5026:hover .rectangle-4-5028,
+.oneframe-5029:hover .rectangle-4-5031,
+.oneframe-5017:hover .rectangle-4-5019,
+.oneframe-505:hover .rectangle-4-507,
+.oneframe-5011:hover .rectangle-4-5013,
+.oneframe-5023:hover .rectangle-4-5025 {
+    filter: brightness(100%); /* Убираем затемнение при наведении */
+}
+
+.rectangle-3-502,
+.rectangle-3-5015,
+.rectangle-3-5021,
+.rectangle-3-509,
+.rectangle-3-5027,
+.rectangle-3-5030,
+.rectangle-3-5018,
+.rectangle-3-506,
+.rectangle-3-5012,
+.rectangle-3-5024 {
+  border: 3px solid #4c4c4cff;
+    border-radius: 10px; /* Закругленные углы */
+    transition: border-color 0.3s ease-in-out;
+}
+
+.nav-links {
+  position: relative;
+  color: rgba(255, 255, 255, 0.721);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Подчеркивание снизу (изначально скрыто) */
+.nav-links::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: -5px;
+  left: 100%;
+  background-color: rgb(209, 0, 0);
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+/* При наведении текст становится золотым, а линия появляется справа налево */
+.nav-links:hover {
+  color: #f7f7f7;
+}
+
+.nav-links:hover::after {
+  width: 100%;
+  left: 0;
+}
+@media (max-width: 1024px) {
+  .parent {
+      flex-direction: column;
+      align-items: center;
+  }
+  .child {
+      width: calc(var(--ratio) * 40);
+      height: calc(var(--ratio) * 40);
+  }
+  .main-header {
+      font-size: calc(var(--ratio) * 6);
+  }
+}
+
+@media (max-width: 768px) {
+  .child {
+      width: calc(var(--ratio) * 50);
+      height: calc(var(--ratio) * 50);
+      font-size: calc(var(--ratio) * 3);
+  }
+  .main-header {
+      font-size: calc(var(--ratio) * 7);
+  }
+}

@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --custom-width: 100vw;
+  --design-width: 1920;
+  --ratio: calc(var(--custom-width) / var(--design-width));
+}
+
+/* Default classes */
+.pos-abs {
+  position: absolute;
+}
+.fill-parent {
+  width: 100%;
+  height: 100%;
+}
+.bg-contain {
+  background-size: contain;
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-auto {
+  background-size: auto;
+}
+.bg-crop {
+  background-size: 100% 100%;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+.pos-init {
+  top: 0px;
+  left: 0px;
+}
+.image-div {
+  background-color: transparent;
+  background-position: center;
+}
+/* Default classes end */
+
+body {
+  margin: 0px 0px;
+  padding: 0px;
+}
+.parent-div {
+  position: relative;
+  width: var(--custom-width);
+  height: calc(1080 * var(--ratio));
+  overflow: hidden;
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.instrumentspage-1650 {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+  transform: rotate(0deg);
+  overflow: hidden;
+  background: #000000ff;
+}
+.navbartoolspage-1651 {
+  width: 100.99%;
+  height: 25.93%;
+  top: -2.13%;
+  left: -1.72%;
+  z-index: 0;
+  transform: rotate(0deg);
+}
+.instruments-1652 {
+  width: 87.52%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.instruments-1652-0 {
+  font-size: calc(240 * var(--ratio));
+  letter-spacing: calc(-5.280000114440918 * var(--ratio));
+  line-height: calc(360 * var(--ratio));
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+.teiimann-1653 {
+  width: 14.75%;
+  height: 25.49%;
+  top: 14.29%;
+  left: 85.25%;
+  z-index: 1;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+  box-sizing: border-box;
+  -webkit-text-stroke: 1px #000000ff;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.teiimann-1653-0 {
+  font-size: calc(50 * var(--ratio));
+  letter-spacing: calc(-1.100000023841858 * var(--ratio));
+  line-height: calc(75 * var(--ratio));
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #c8c8c8ff;
+}
+.contacts-1656 {
+  width: 7.61%;
+  height: 15.29%;
+  top: 39.78%;
+  left: 86.34%;
+  z-index: 4;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.contacts-1656-0,
+.projects-1654-0,
+.about-1655-0 {
+  font-size: calc(35 * var(--ratio));
+  letter-spacing: calc(-0.7700000166893005 * var(--ratio));
+  line-height: calc(52.5 * var(--ratio));
+  font-family: "Jersey 25", cursive;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #c8c8c8ff;
+}
+.projects-1654 {
+  width: 7.41%;
+  height: 15.29%;
+  top: 55.07%;
+  left: 86.55%;
+  z-index: 2;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.about-1655 {
+  width: 4.56%;
+  height: 15.29%;
+  top: 70.36%;
+  left: 86.55%;
+  z-index: 3;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.maincontent-1693 {
+  width: 59.74%;
+  height: 64.63%;
+  top: 27.41%;
+  left: 32.08%;
+  z-index: 1;
+  transform: rotate(0deg);
+}
+.frontend-1667 {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 0;
+  transform: rotate(0deg);
+  border-radius: 75px;
+  background: #b3b3b3ff;
+  box-sizing: border-box;
+  border-left: 7px solid #ffffffff;
+  border-right: 7px solid #ffffffff;
+  border-top: 7px solid #ffffffff;
+  border-bottom: 7px solid #ffffffff;
+}
+.other-1668 {
+  width: 15.95%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+  transform: rotate(0deg);
+  border-radius: 75px 0;
+  background: #414141ff;
+  box-sizing: border-box;
+  border-left: 7px solid #ffffffff;
+  border-right: 7px solid #ffffffff;
+  border-top: 7px solid #ffffffff;
+  border-bottom: 7px solid #ffffffff;
+}
+.backend-1669 {
+  width: 15.95%;
+  height: 100%;
+  top: 0%;
+  left: 14.65%;
+  z-index: 2;
+  transform: rotate(0deg);
+  background: #626262ff;
+  box-sizing: border-box;
+  border-left: 7px solid #ffffffff;
+  border-right: 7px solid #ffffffff;
+  border-top: 7px solid #ffffffff;
+  border-bottom: 7px solid #ffffffff;
+}
+.instrument-1692 {
+  width: 11.25%;
+  height: 65.33%;
+  top: 12.32%;
+  left: 46.38%;
+  z-index: 6;
+  transform: rotate(0deg);
+}
+.nodeBg-1674,
+.nodeBg-1677,
+.nodeBg-1678 {
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  opacity: 1;
+}
+.react-1-1674 {
+  width: 100%;
+  height: 25.44%;
+  top: 0%;
+  left: 0%;
+  z-index: 0;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+.react-2-1677 {
+  width: 100%;
+  height: 25.44%;
+  top: 37.28%;
+  left: 0%;
+  z-index: 1;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+.react-3-1678 {
+  width: 100%;
+  height: 25.44%;
+  top: 74.56%;
+  left: 0%;
+  z-index: 2;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+.frontend-1673 {
+  width: 44.73%;
+  height: 14.61%;
+  top: 39.47%;
+  left: 13.73%;
+  z-index: 4;
+  transform: rotate(-90deg);
+  text-align: center;
+  line-height: 0px;
+}
+.frontend-1673-0,
+.other-1672-0,
+.backend-1671-0 {
+  font-size: calc(50 * var(--ratio));
+  letter-spacing: calc(-1.100000023841858 * var(--ratio));
+  line-height: calc(75 * var(--ratio));
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+.other-1672 {
+  width: 44.73%;
+  height: 14.47%;
+  top: 39.54%;
+  left: -14.39%;
+  z-index: 5;
+  transform: rotate(-90deg);
+  text-align: center;
+  line-height: 0px;
+}
+.backend-1671 {
+  width: 44.73%;
+  height: 14.47%;
+  top: 39.54%;
+  left: 0.26%;
+  z-index: 3;
+  transform: rotate(-90deg);
+  text-align: center;
+  line-height: 0px;
+}
+.nodeBg-1676 {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: calc(1212.5691312234273 * var(--ratio));
+  height: calc(682.7364712255259 * var(--ratio));
+  left: calc(-79.0153863652132 * var(--ratio));
+  top: calc(-131.73651186018603 * var(--ratio));
+  object-fit: cover;
+  opacity: 1;
+}
+.toolsimg-1676 {
+  width: 27.86%;
+  height: 50.93%;
+  top: 49.07%;
+  left: 0%;
+  z-index: 2;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+
+
+/* Базовый стиль для ссылок */
+.nav-links {
+  position: relative;
+  color: rgba(255, 255, 255, 0.721);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Подчеркивание снизу (изначально скрыто) */
+.nav-links::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: -5px;
+  left: 100%;
+  background-color: rgb(209, 0, 0);
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+/* При наведении текст становится золотым, а линия появляется справа налево */
+.nav-links:hover {
+  color: #f7f7f7;
+}
+
+.nav-links:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/* ========== АДАПТИВНОСТЬ ========== */
+
+/* Общие стили для мобильных устройств */
+@media (max-width: 1024px) {
+  .about-me-1517-0 {
+    font-size: calc(200 * var(--ratio));
+    line-height: calc(300 * var(--ratio));
+  }
+
+  .contacts-1522-0,
+  .projects-1520-0,
+  .tools-1521-0 {
+    font-size: calc(30 * var(--ratio));
+    line-height: calc(50 * var(--ratio));
+  }
+
+  .teiimann-1518-0 {
+    font-size: calc(40 * var(--ratio));
+  }
+
+  .hi-im-a-student-1630-0 {
+    font-size: calc(30 * var(--ratio));
+  }
+}
+
+/* Планшеты (768px - 1024px) */
+@media (max-width: 768px) {
+  .navbartoolspage-1651 {
+    padding: 10px;
+  }
+
+  .nav-links {
+    font-size: 16px;
+  }
+
+  .about-me-1517-0 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  .contacts-1522-0,
+  .projects-1520-0,
+  .tools-1521-0 {
+    font-size: 25px;
+  }
+
+  .card-1649 {
+    width: 80%;
+    height: auto;
+    left: 10%;
+  }
+}
+
+/* Смартфоны (до 480px) */
+@media (max-width: 480px) {
+  .navbartoolspage-1651 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    font-size: 14px;
+  }
+
+  .about-me-1517-0 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .contacts-1522-0,
+  .projects-1520-0,
+  .tools-1521-0 {
+    font-size: 20px;
+  }
+
+  .card-1649 {
+    width: 90%;
+    left: 5%;
+  }
+}
+
+.HiddenPhoto{
+  width: 50px;
+}
