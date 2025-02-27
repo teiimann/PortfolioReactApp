@@ -23,11 +23,11 @@ const TeiPage = () => {
         <section className="navbarmainpage-818 pos-abs">
           <div className="nav-4345 pos-abs">
             <div className="contacts-813 pos-abs">
-              <Link to="/contacts" className="contacts-813-0 nav-links">CONTACTS </Link>
+              <Link to="/contacts" className="contacts-813-0 nav-links">CONTACTS</Link>
             </div>
 
             <div className="projects-811 pos-abs">
-              <Link to="/projects" className="projects-811-0 nav-links">PROJECTS </Link>
+              <Link to="/projects" className="projects-811-0 nav-links">PROJECTS</Link>
             </div>
 
             <div className="tools-812 pos-abs">
