@@ -26,7 +26,7 @@ const FinContent = ({onNext}) => {
 }
 
 const StyledWrapper = styled.div`
-margin: 100px 250px;
+margin: 150px 250px;
 transform: scale(1.3);
   .brutalist-card {
     width: 320px;

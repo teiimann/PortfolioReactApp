@@ -25,7 +25,7 @@ const ThxContent = ({onNext}) => {
 const StyledWrapper = styled.div`
 transform: scale(1.3);
   .card {
-    margin: 75px 200px;
+    margin: 155px 200px;
     width: 420px;
     height: 300px;
     padding: 30px;
