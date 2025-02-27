@@ -8,9 +8,7 @@ const ProjectsPage = () => {
   return (
     <div className="parent-div ">
       <div className="projectpage-182 pos-abs">
-        {/* NavbarProjPage1 */}
         <ProjectsNav />
-        {/* Img1 */}
         <section className="img-1837 pos-abs">
           <div className="projimg-1811 pos-abs">
             <img
@@ -28,7 +26,6 @@ const ProjectsPage = () => {
             />
           </div>
         </section>
-        {/* Frames1 */}
         <section className="frames-5032 pos-abs">
   <div className="oneframe-504 pos-abs">
     <a href="https://aisa-app-final.vercel.app" target="_blank" rel="noopener noreferrer" style={{ display: "block", width: "100%", height: "100%", position: "absolute" }}>

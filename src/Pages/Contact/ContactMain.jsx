@@ -14,14 +14,13 @@ const ContactsPage = () => {
     const [step, setStep] = useState(0);
 
     const handleNextStep = () => {
-        setStep((prevStep) => (prevStep + 1) % 3); // Меняем шаги по кругу
+        setStep((prevStep) => (prevStep + 1) % 3);
     };
 
     return (
         <div className="parent-div">
             <div className="contactpage-1679 pos-abs">
                 <ContactsNav />
-                {/* Изображения */}
                 <section className="img-1840 pos-abs">
                     <div className="contactimg-1694 pos-abs">
                         <img src={Flowers} className="pos-abs image-div bg-no-repeat bg-crop nodeBg-1694" alt="1694-ALT"/>
@@ -31,13 +30,11 @@ const ContactsPage = () => {
                     </div>
                 </section>
 
-                {/* Контент */}
                 <section className="contactmain-1842 pos-abs">
                     <div className="basebox-1696 pos-abs"></div>
                     <div className="media-1841 pos-abs">
                         <div className="rectangle-2-1697 pos-abs"></div>
 
-                        {/* Иконки */}
                         <div className="linkicon-1-1698 pos-abs">
                             <a href="https://github.com/teiimann" target="_blank" rel="noopener noreferrer">
                             <div className="button-log"><img src={Github} alt="Github"/></div>
@@ -59,7 +56,6 @@ const ContactsPage = () => {
                             </a>
                         </div>
 
-                        {/* Показываем текущий компонент */}
                         {step === 0 && <RegContent onNext={handleNextStep} />}
                         {step === 1 && <ThxContent onNext={handleNextStep} />}
                         {step === 2 && <FinContent onNext={handleNextStep} />}

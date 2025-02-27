@@ -9,9 +9,7 @@ const ToolsPage = () => {
     return(
         <div className="parent-div ">
       <div className="instrumentspage-1650 pos-abs">
-        {/* NavbarToolsPage1 */}
         <ToolsNav/>
-        {/* MainContent1 */}
         <section className="maincontent-1693 pos-abs">
          
          <ToolsContent/>

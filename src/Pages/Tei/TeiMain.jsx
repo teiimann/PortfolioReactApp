@@ -20,7 +20,6 @@ const TeiPage = () => {
         <div className="portfolio-89 pos-abs">
           <span className="portfolio-89-0">PORTFOLIO</span>
         </div>
-        {/* NavbarMainPage1 */}
         <section className="navbarmainpage-818 pos-abs">
           <div className="nav-4345 pos-abs">
             <div className="contacts-813 pos-abs">
