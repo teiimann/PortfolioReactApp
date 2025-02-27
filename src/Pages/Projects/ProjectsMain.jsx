@@ -31,7 +31,7 @@ const ProjectsPage = () => {
         {/* Frames1 */}
         <section className="frames-5032 pos-abs">
   <div className="oneframe-504 pos-abs">
-    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" style={{ display: "block", width: "100%", height: "100%", position: "absolute" }}>
+    <a href="https://aisa-app-final.vercel.app" target="_blank" rel="noopener noreferrer" style={{ display: "block", width: "100%", height: "100%", position: "absolute" }}>
       <div className="rectangle-3-502 pos-abs"></div>
       <div className="rectangle-4-503 pos-abs"></div>
       <div className="project-name-527 pos-abs">
@@ -121,7 +121,7 @@ const ProjectsPage = () => {
   </div>
 
   <div className="oneframe-5023 pos-abs">
-    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" style={{ display: "block", width: "100%", height: "100%", position: "absolute" }}>
+    <a href="https://solar-app-final.vercel.app" target="_blank" rel="noopener noreferrer" style={{ display: "block", width: "100%", height: "100%", position: "absolute" }}>
       <div className="rectangle-3-5024 pos-abs"></div>
       <div className="rectangle-4-5025 pos-abs"></div>
       <div className="project-name-529 pos-abs">
