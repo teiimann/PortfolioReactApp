@@ -65,6 +65,8 @@ const ToolsContent = () => {
 };
 
 const StyledWrapper = styled.div`
+margin-top: 100px;
+transition: scale(1.3);
   .tools-card {
     margin-top: 25px;
     width: 800px;
