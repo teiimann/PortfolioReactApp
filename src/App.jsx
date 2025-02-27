@@ -9,7 +9,6 @@ import ProjectsPage from './Pages/Projects/ProjectsMain'
 const App = () => {
   console.log("okay")
   return (
-    
     <Router>
       <Routes>
         <Route path="/" element={<TeiPage />} />
@@ -17,7 +16,6 @@ const App = () => {
         <Route path="/contacts" element={<ContactsPage />} />
         <Route path="/tools" element={<ToolsPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
-        
       </Routes>
     </Router>
   )
