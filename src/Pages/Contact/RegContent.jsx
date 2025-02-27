@@ -23,7 +23,7 @@ const RegContent = ({onNext}) => {
 
 const StyledWrapper = styled.div`
 margin: 50px 175px;
-transform: scale(1.5);
+transform: scale(1.);
   .card {
     width: 500px;
     padding: 20px;
